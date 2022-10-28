@@ -1,0 +1,9 @@
+[Unit]
+Description=Servicio de test
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/h/edp-tci/servicios/hola.sh
+
+[Install]
+WantedBy=multi-user.target
